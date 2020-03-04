@@ -26,7 +26,7 @@
 
   <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
     <a class="navbar-brand js-scroll-trigger" href="#page-top">
-      <span class="d-block d-lg-none">Steven Wang</span>
+      <span class="d-block d-lg-none">Tzu-Wen Wang</span>
       <span class="d-none d-lg-block">
         <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/profile.jpg" alt="">
       </span>
@@ -119,109 +119,154 @@
         <h2 class="mb-5">Skills</h2>
 
         <div class="subheading mb-3">Programming Languages &amp; Tools</div>
-        <ul class="list-inline dev-icons">
-          <li class="list-inline-item">
-            <i class="fab fa-python"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-html5"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-css3-alt"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-js-square"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-angular"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-react"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-node-js"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-sass"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-less"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-wordpress"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-gulp"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-grunt"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-npm"></i>
-          </li>
+        <ul class="fa-ul mb-3">
+          <li>C</li>
+          <li>C++</li>
+          <li><i class="fa-li fab fa-python"></i>Pyhton</li>
+          <li><i class="fa-li fab fa-html5"></i>HTML</li>
+          <li><i class="fa-li fab fa-css3-alt"></i>CSS</li>
+          <li><i class="fa-li fab fa-js-square"></i>JavaScript</li>
+          <li>Verilog</li>
+          <li>MPI</li>
+          <li>CUDA</li>
         </ul>
-
-        <div class="subheading mb-3">Workflow</div>
-        <ul class="fa-ul mb-0">
+        
+        <div class="subheading mb-3">Hardwares</div>
+        <ul class="fa-ul mb-3">
           <li>
-            <i class="fa-li fa fa-check"></i>
-            Mobile-First, Responsive Design</li>
+            Arduino</li>
           <li>
-            <i class="fa-li fa fa-check"></i>
-            Cross Browser Testing &amp; Debugging</li>
+            <i class="fa-li fab fa-raspberry-pi"></i>
+            Raspberry pi</li>
+        </ul>
+        
+        <div class="subheading mb-3">Others</div>
+        <ul class="fa-ul mb-3">
           <li>
-            <i class="fa-li fa fa-check"></i>
-            Cross Functional Teams</li>
+            <i class="fa-li fab fa-linux"></i>
+            Linux</li>
           <li>
-            <i class="fa-li fa fa-check"></i>
-            Agile Development &amp; Scrum</li>
+            <i class="fa-li fab fa-git"></i>
+            Git</li>
         </ul>
       </div>
     </section>
 
     <hr class="m-0">
 
-    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="interests">
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="projects">
       <div class="w-100">
-        <h2 class="mb-5">Interests</h2>
-        <p>Apart from being a web developer, I enjoy most of my time being outdoors. In the winter, I am an avid skier and novice ice climber. During the warmer months here in Colorado, I enjoy mountain biking, free climbing, and kayaking.</p>
-        <p class="mb-0">When forced indoors, I follow a number of sci-fi and fantasy genre movies and television shows, I am an aspiring chef, and I spend a large amount of my free time exploring the latest technology advancements in the front-end web development world.</p>
+        <h2 class="mb-5">Projects</h2>
+        
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-2">
+          <div class="resume-content">
+            <h3 class="mb-0">Flappy Bird with Q-Learning on FPGA</h3>
+            <div class="subheading mb-1">Logic Design Laboratory</div>
+            <ul class="mb-03">
+              <li>The final project of Logic Design Laboratory</li>
+              <li>Implement the flappy bird game on the Xilinx Basys 3 FPGA Board using Verilog.</li>
+              <li>Using the Q-Learning method to train the bird flap by itself.</li>
+            </ul>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">December 2019 - January 2020</span>
+            <br>
+            <a href="https://github.com/engine210/qhoenix">Github link</a>
+          </div>
+        </div>
+        
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-2">
+          <div class="resume-content">
+            <h3 class="mb-0">thunderstormMPI</h3>
+            <div class="subheading mb-1">Running ThunderSTORM on cluster</div>
+            <ul class="mb-03">
+              <li>ThunderSTORM is an ImageJ plugin. The Brain Reacher Center of NTHU uses it to process the microscope images.</li>
+              <li>Due to the huge size and amount of data, the processing time is very long.</li>
+              <li>We used MPI as scheduler, distributing the data to each process by round robin method. Decreasing the processing time significantly.</li>
+            </ul>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">Sepetember 2019 - January 2020</span>
+            <br>
+            <a href="https://github.com/engine210/thunderstormMPI">Github link</a>
+          </div>
+        </div>
+        
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-2">
+          <div class="resume-content">
+            <h3 class="mb-0">Bike Positioning using LoRaWAN</h3>
+            <div class="subheading mb-1">Introduction to Computer Networks</div>
+            <ul class="mb-03">
+              <li>The final project of Introduction to Computer Networks</li>
+              <li>Design a frontend RWD website with google Map API to show the bike’s position.</li>
+              <li>Using Telegram API to send messages when the bike is moved.</li>
+            </ul>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">December 2019 - January 2020</span>
+            <br>
+          </div>
+        </div>
+        
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-2">
+          <div class="resume-content">
+            <h3 class="mb-0">Remote Light Control</h3>
+            <div class="subheading mb-1">My Side project</div>
+            <ul class="mb-03">
+              <li>Using Arduino and servos to control the light switch.</li>
+              <li>Connecting to the Internet using ESP8266.</li>
+              <li>Using Raspberry pi as a web server.</li>
+              <li>Integrate Google Assistant API to control the light by voice command.</li>
+            </ul>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">December 2019 - January 2020</span>
+            <br>
+          </div>
+        </div>
+        
+        
       </div>
     </section>
 
     <hr class="m-0">
 
-    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="awards">
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="experiences">
       <div class="w-100">
-        <h2 class="mb-5">Awards &amp; Certifications</h2>
-        <ul class="fa-ul mb-0">
-          <li>
-            <i class="fa-li fa fa-trophy text-warning"></i>
-            Google Analytics Certified Developer</li>
-          <li>
-            <i class="fa-li fa fa-trophy text-warning"></i>
-            Mobile Web Specialist - Google Certification</li>
-          <li>
-            <i class="fa-li fa fa-trophy text-warning"></i>
-            1<sup>st</sup>
-            Place - University of Colorado Boulder - Emerging Tech Competition 2009</li>
-          <li>
-            <i class="fa-li fa fa-trophy text-warning"></i>
-            1<sup>st</sup>
-            Place - University of Colorado Boulder - Adobe Creative Jam 2008 (UI Design Category)</li>
-          <li>
-            <i class="fa-li fa fa-trophy text-warning"></i>
-            2<sup>nd</sup>
-            Place - University of Colorado Boulder - Emerging Tech Competition 2008</li>
-          <li>
-            <i class="fa-li fa fa-trophy text-warning"></i>
-            1<sup>st</sup>
-            Place - James Buchanan High School - Hackathon 2006</li>
-          <li>
-            <i class="fa-li fa fa-trophy text-warning"></i>
-            3<sup>rd</sup>
-            Place - James Buchanan High School - Hackathon 2005</li>
-        </ul>
+        <h2 class="mb-5">Experiences</h2>
+        
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-2">
+          <div class="resume-content">
+            <h3 class="mb-0">Team Leader</h3>
+            <div class="subheading mb-1">ASC Student Supercomputer Challenge 2020 (ongoing)</div>
+            <ul class="mb-03">
+              <li>Leading a team of 5 students to participate in the competition.</li>
+              <li>Design a HPC cluster and manage it with the linux system.</li>
+              <li>Study on several applications including Linpack benchmark, a NLP cloze problem and a quantum computing application.</li>
+            </ul>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">Spring 2020 - Present</span>
+            <br>
+          </div>
+        </div>
+        
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-2">
+          <div class="resume-content">
+            <h3 class="mb-0">Summer exchange student</h3>
+            <div class="subheading mb-1">Tsing Hua University, Beijing, China</div>
+            <ul class="mb-03">
+              <li>Exchanged in Tsing Hua University during summer vacation.</li>
+              <li>Took a course of parallel computing.</li>
+              <li>Learning to code using MPI, pthread and CUDA.</li>
+            </ul>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">Spring 2020 - Present</span>
+            <br>
+          </div>
+        </div>
+        
       </div>
     </section>
 
